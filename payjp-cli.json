@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "description": "PAY.JP CLI tool - Command line interface for PAY.JP payment platform",
+    "homepage": "https://github.com/payjp/payjp-cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/payjp/payjp-cli/releases/download/v0.1.0/payjp-cli-windows-amd64.zip",
+            "hash": "536a6eeb475c4c8909bdfcc9cd7caf908b40fa60a956c4bc7f060dea607b3d63",
+            "bin": "payjp-cli.exe"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/payjp/payjp-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/payjp/payjp-cli/releases/download/v$version/payjp-cli-windows-amd64.zip"
+            }
+        }
+    }
+}
